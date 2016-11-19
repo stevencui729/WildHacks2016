@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/myPC/Downloads/PhotoIntentActivity1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12d71b6631fa6b5097c83b711b0211228ace0bcb">
+        <dex dex="/Users/myPC/Downloads/PhotoIntentActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a4b16caa89e0f771b6c97eb89afb19b495f4adaf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/myPC/Downloads/PhotoIntentActivity1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db057cb50afb5bf9866f073a2ac5937b295f286e">
+        <dex dex="/Users/myPC/Downloads/PhotoIntentActivity1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7d094de3816f2d24fae50c589fb3ecaf5cb18fea/classes.dex" />
+    </item>
+
+</items>
