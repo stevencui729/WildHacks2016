@@ -13,12 +13,17 @@ def convert_to_degrees(value):
 def parseLatLon(latLonDict):
 	parsedLatLonDict = {}
 
+	# print latLonDict["GPS GPSLatitudeRef"]
+
 	degLat = convert_to_degrees(latLonDict["GPS GPSLatitude"])
-	if latLonDict["GPS GPSLatitudeRef"] != "N":
+	if latLonDict["GPS GPSLatitudeRef"].values[0] != "N":
 		degLat = 0 - degLat
 	degLon = convert_to_degrees(latLonDict["GPS GPSLongitude"])
-	if latLonDict["GPS GPSLongitudeRef"] != "E":
+	if latLonDict["GPS GPSLongitudeRef"].values[0] != "E":
 		degLon = 0 - degLon
+
+	print degLat
+	print degLon
 
 	parsedLatLonDict["lat"] = degLat
 	parsedLatLonDict["lon"] = degLon
